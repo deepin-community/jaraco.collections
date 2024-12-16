@@ -1,3 +1,48 @@
+jaraco.collections (5.0.1-1) unstable; urgency=medium
+
+  * New upstream version 5.0.1.
+  * Control: remove team from uploaders.
+  * Control: point VCS links to private namespace.
+  * Bump Standards-Version to 4.7.0 (from 4.6.2; no further changes).
+  * Copyright: bump years.
+
+ -- Jeroen Ploemen <jcfp@debian.org>  Thu, 15 Aug 2024 03:28:28 +0000
+
+jaraco.collections (4.2.0-1) unstable; urgency=medium
+
+  * New upstream version 4.2.0
+  * Bump Standards-Version to 4.6.2 (from 4.6.1; no further changes).
+  * Copyright: bump years.
+  * Add d/pybuild.testfiles to avoid copying pyproject.toml. This file
+    is copied by default now in response to #1031609, but its presence
+    causes FTBFS with errors about relative imports when running the
+    testsuite.
+
+ -- Jeroen Ploemen <jcfp@debian.org>  Thu, 15 Jun 2023 11:05:07 +0000
+
+jaraco.collections (3.8.0-1) unstable; urgency=medium
+
+  * New upstream version 3.8.0
+  * Control: bump std-ver to 4.6.1 (from 4.6.0; no further changes).
+  * Control: add build-dep on pybuild-plugin-pyproject.
+
+ -- Jeroen Ploemen <jcfp@debian.org>  Mon, 12 Dec 2022 11:17:10 +0000
+
+jaraco.collections (3.5.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Copyright: bump years.
+
+ -- Jeroen Ploemen <jcfp@debian.org>  Mon, 04 Apr 2022 14:41:21 +0000
+
+jaraco.collections (3.4.0-2) unstable; urgency=medium
+
+  * Tests: use upstream testsuite as autopkgtest.
+  * Control: bump Standards-Version to 4.6.0 (from 4.5.1; no further
+    changes).
+
+ -- Jeroen Ploemen <jcfp@debian.org>  Sat, 20 Nov 2021 09:01:56 +0000
+
 jaraco.collections (3.4.0-1) unstable; urgency=medium
 
   [ Jeroen Ploemen ]
